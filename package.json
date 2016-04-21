@@ -1,6 +1,6 @@
 {
   "name": "amazeui-datatables",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "jQuery tags input plugin based on Amaze UI.",
   "main": "lib/amazeui.datatables.js",
   "style": "dist/amazeui.datatables.css",
