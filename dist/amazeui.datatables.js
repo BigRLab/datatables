@@ -1,6 +1,6 @@
 (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(_dereq_,module,exports){
 (function (global){
-/*! DataTables Amaze UI 2.x integration */
+/*! DataTables Amaze UI 2.x integration v0.0.4 dt@1.10.11 */
 
 /**
  * DataTables integration for  Amaze UI 2.x. This requires  Amaze UI 2.x and
@@ -86,7 +86,7 @@ DataTable.ext.renderer.pageButton.amazeui = function(settings, host, idx, button
     var i, ien, node, button;
     var clickHandler = function(e) {
       e.preventDefault();
-      if (!$(e.currentTarget).hasClass('disabled')) {
+      if (!$(e.currentTarget).hasClass('am-disabled')) {
         api.page(e.data.action).draw(false);
       }
     };
