@@ -1,7 +1,7 @@
 {
   "name": "amazeui-datatables",
-  "version": "0.0.5",
-  "description": "jQuery tags input plugin based on Amaze UI.",
+  "version": "0.0.6",
+  "description": "jQuery DataTables 插件 Amaze UI 集成",
   "main": "lib/amazeui.datatables.js",
   "style": "dist/amazeui.datatables.css",
   "scripts": {
@@ -24,17 +24,17 @@
   "bugs": {
     "url": "https://github.com/amazeui/datatables/issues"
   },
-  "homepage": "https://github.com/amazeui/datatables",
+  "homepage": "http://amazeui.github.io/datatables/",
   "licenses": "MIT",
   "devDependencies": {
     "amazeui-doc-util": "latest",
-    "amazeui-gulp-tasks": "^0.0.4",
-    "datatables": "^1.10.11",
+    "amazeui-gulp-tasks": "0.0.7",
+    "datatables": "^1.10.12",
     "gulp": "^3.9.1",
-    "run-sequence": "^1.1.5"
+    "run-sequence": "^1.2.2"
   },
   "dependencies": {
-    "amazeui": "^2.6.1",
+    "amazeui": "^2.7.0",
     "jquery": "^2.2.3"
   },
   "browserify-shim": {
